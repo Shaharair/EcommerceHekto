@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+}
+
+.slick-dots .slick-active div{
+    border-right: 2px solid #262626 !important;
+    color: #262626 !important;
+}
+
+@media(max-width:640px){
+    .slick-dots{
+        left: 5px !important;
+        padding: 0 !important;
+    }
+    .shahariar{
+        left: 0 !important;
+        padding: 0 !important;
+        width: 30px !important;
+    }
+    .slick-dots .slick-active{
+        font-size: 16px;
+    }
+}
+
+@media(max-width:1024px){
+    .slick-dots{
+        left: 10px !important;
+        padding: 0 !important;
+    }
+    .shahariar{
+        left: 0 !important;
+        padding: 0 !important;
+        width: 30px !important;
+    }
+}
